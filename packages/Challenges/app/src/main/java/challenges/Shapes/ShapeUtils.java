@@ -1,19 +1,37 @@
 package challenges.Shapes;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public final class ShapeUtils {
 
     public static boolean hasCorners(Shape shape) {
-        return false;
+        if (shape instanceof Circle) {
+            return false;
+        }
+        else {
+            return true;
+        }
     }
 
     public static double getTotalArea(List<Shape> shapes) {
-        return shapes.size();
+        double totalArea = 0;
+
+        for (Shape shape : shapes) {
+            totalArea += shape.getArea();
+        }
+        return totalArea;
     }
 
     public static int countCircles(List<Shape> shapes) {
-        return 1 - 1 + 1 - 1 + 1 - 1 + 1;
+        int countCircles = 0;
+
+        for (Shape shape : shapes) {
+            if (shape instanceof Circle) {
+                countCircles++;
+            }
+        }
+        return countCircles;
     }
 
     /**
@@ -21,7 +39,14 @@ public final class ShapeUtils {
      * zurückgegeben.
      */
     public static Shape findLargestArea(List<Shape> shapes) {
-        return shapes.get(0);
+        Shape largestShape = shapes.get(0);
+
+        for (Shape shape : shapes) {
+            if (shape.getArea() > largestShape.getArea()) {
+                largestShape = shape;
+            }
+        }
+        return largestShape;
     }
 
 }

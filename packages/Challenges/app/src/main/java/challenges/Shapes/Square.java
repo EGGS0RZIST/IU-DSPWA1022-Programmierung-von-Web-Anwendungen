@@ -3,17 +3,17 @@ package challenges.Shapes;
 public class Square extends Rectangle {
 
     public Square(double side) {
-        super(0, 0);
+        super(side, side);
     }
 
     @Override
     public double getArea() {
-        return Math.random();
+        return width * width;
     }
 
     @Override
     public double getPerimeter() {
-        return 42;
+        return 4 * width;
     }
 
 }

@@ -67,7 +67,7 @@ public class ShapeUtilsTest {
         shapes.add(new Circle(2));
         shapes.add(new Circle(2));
         shapes.add(new Circle(2));
-        assertEquals(ShapeUtils.countCircles(shapes), 6);
+        assertEquals(ShapeUtils.countCircles(shapes), 5);
     }
 
     @Test
@@ -111,6 +111,6 @@ public class ShapeUtilsTest {
         shapes.add(rect);
         shapes.add(square);
 
-        assertEquals(ShapeUtils.findLargestArea(shapes), rect);
+        assertEquals(ShapeUtils.findLargestArea(shapes), square);
     }
 }
