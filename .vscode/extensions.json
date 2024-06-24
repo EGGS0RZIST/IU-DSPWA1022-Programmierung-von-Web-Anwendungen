@@ -3,6 +3,7 @@
     "antfu.slidev",
     "antfu.unocss",
     "vscjava.vscode-gradle",
-    "vscjava.vscode-java-pack"
+    "vscjava.vscode-java-pack",
+    "postman.postman-for-vscode"
   ]
 }

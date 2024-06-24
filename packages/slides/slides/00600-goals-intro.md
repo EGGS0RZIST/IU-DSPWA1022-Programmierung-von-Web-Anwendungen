@@ -14,17 +14,17 @@ layout: section
   />
   <Card
     v-click
-    title="🫘 Web-Apps mit Java & Spring Boot"
+    title="🌍 Grundlagen betrieblicher Webanwendungen"
+    description="Architekturen, Herausforderungen"
+  />
+  <Card
+    v-click
+    title="🔐 Backend-Entwicklung mit Java & Spring Boot"
     description="Model-View-Controller, APIs, DB-Zugriff, ..."
   />
   <Card
     v-click
-    title="🏛️ Architekturen einer Webanwendung"
-    description="REST, RPC, EDA, ..."
-  />
-  <Card
-    v-click
-    title="💻 Web-Entwicklung im Browser"
+    title="💻 Frontend-Entwicklung im Browser"
     description="JavaScript, TypeScript, Frameworks, ..."
   />
   <Card
@@ -34,7 +34,7 @@ layout: section
   />
 </div>
 
-<div class="absolute top right-[23.7rem] flex flex-col gap-4">
+<div class="absolute top right-[28.6rem] flex flex-col gap-4">
   <Card
     v-click
     title="👷 Praxisteil I"
@@ -44,9 +44,3 @@ layout: section
 </div>
 
 <PageNumber/>
-
-<!--
-- Heute
-  - Zuerst Praxisteil
-  - Später erster Teil OOP / Java
--->

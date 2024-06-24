@@ -14,7 +14,7 @@ layout: default
   - Installiert ggf. Java ([Mac](https://learn.microsoft.com/de-de/java/openjdk/install#install-on-macos), [Windows](https://learn.microsoft.com/de-de/java/openjdk/install#install-on-windows), [Linux](https://learn.microsoft.com/de-de/java/openjdk/install#install-on-ubuntu))
   - Installiert ggf. Git ([Mac](https://git-scm.com/download/mac), [Windows](https://git-scm.com/download/win), [Linux](https://git-scm.com/download/linux))
   - Fork: _For my own purposes_, nicht _Contribute to the parent project_
-- Folgt dann den Anweisungen in [`packages/Challenges/README.md`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/Challenges)
+- Folgt dann den Anweisungen im [`OOP-Package`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/dspwa1022/src/main/java/org/iu/dspwa1022/oop)
 
 </div>
 <div class="col-span-6">

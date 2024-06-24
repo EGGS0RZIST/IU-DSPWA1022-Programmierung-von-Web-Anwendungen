@@ -26,7 +26,7 @@ classDiagram
     }
 
     class Zebra{
-      +bool is_wild
+      +bool isWild
       +run()
     }
 ```

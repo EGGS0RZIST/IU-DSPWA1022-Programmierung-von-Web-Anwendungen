@@ -32,7 +32,7 @@ layout: default
       }
 
       class Zebra{
-        +bool is_wild
+        +bool isWild
         +run()
       }
 
@@ -45,7 +45,7 @@ layout: default
 ```mermaid
   classDiagram
     class Zebra{
-      +bool is_wild
+      +bool isWild
       +run()
     }
 
@@ -115,8 +115,8 @@ public class Zebra {
 ```java
 public class Zebra extends Animal {
 
-    public Zebra(int age) {
-        super(age);
+    public Zebra(int age, String gender) {
+        super(age, gender);
     }
 
 }
@@ -125,8 +125,8 @@ public class Zebra extends Animal {
 ```java
 public class Zebra extends Animal {
 
-    public Zebra(int age) {
-        super(age);
+    public Zebra(int age, String gender) {
+        super(age, gender);
     }
 
     @Override

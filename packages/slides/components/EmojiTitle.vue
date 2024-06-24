@@ -3,7 +3,7 @@
     <div>
       <span class="text-[3.75rem] mr-4">{{ emoji }}</span>
     </div>
-    <div>
+    <div class="max-w-[36rem]">
       <h1>{{ title }}</h1>
 
       <span class="text-muted">

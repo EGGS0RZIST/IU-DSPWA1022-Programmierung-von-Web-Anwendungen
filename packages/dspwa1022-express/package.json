@@ -1,0 +1,13 @@
+{
+  "name": "@iu-dspwa1022/express",
+  "scripts": {
+    "start": "bun --watch ./src/index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
